@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server';
 import { v4 as uuidv4 } from 'uuid';
 import { getDb } from '@/lib/mongodb';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 // In-memory fallback if MongoDB is unreachable
 let memoryFeedback = [];
 
