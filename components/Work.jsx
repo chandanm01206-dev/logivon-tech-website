@@ -45,7 +45,7 @@ export default async function Work() {
 
                 <div className="flex justify-center mt-12">
                     <a
-                        href="https://github.com/chandanm01206-dev"
+                        href="https://github.com/logivontech-Dev"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 border border-white/20 text-white bg-transparent hover:bg-white/5 rounded-pill px-6 py-3 text-sm font-medium transition-colors"
